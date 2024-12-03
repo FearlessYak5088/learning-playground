@@ -23,8 +23,8 @@ def tables_and_columns(data, class_name):
             if "." in item:
                 table = item.split(".")[0]
                 column = item.split(".")[1]
-            table_names.append(table)
-            column_names.append(column)
+                table_names.append(table)
+                column_names.append(column)
 
     return table_names, column_names
 
