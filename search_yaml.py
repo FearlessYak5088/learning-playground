@@ -37,8 +37,8 @@ with open(file_name, "r", encoding="utf-8") as f:
 
 
 class_name = 'title'
-title_count = count_class(data, class_name)
-print(f"'{class_name}' appears {title_count} times")
+class_count = count_class(data, class_name)
+print(f"'{class_name}' appears {class_count} times")
 
 class_name = 'fields'
 tables, columns = tables_and_columns(data, class_name)
