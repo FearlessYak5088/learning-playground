@@ -1,2 +1,2 @@
 # learning-yaml
-Basic beginner python code related to YAML
+Basic python code related to YAML
